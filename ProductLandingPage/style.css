@@ -559,18 +559,20 @@ header nav {
   border: none;
   background: transparent;
   font-family: "Open Sans", Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   font-size: 1.0625rem;
   line-height: 1.7;
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: left;
   padding: 0.5rem;
 }
 
 .subscribe-form input::placeholder {
   color: #6b6765;
+  opacity: 0.6;
   font-style: italic;
+  font-weight: 300;
 }
 
 .subscribe-form input:focus {
