@@ -412,7 +412,7 @@ header nav {
 .testimonial {
   background: #f9f5f3;
   text-align: center;
-  max-width: 750px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 4rem 2rem;
 }
@@ -443,7 +443,7 @@ header nav {
   display: inline-flex;
   align-items: center;
   height: 65px;
-  border: 2px solid #dad1cc;
+  border:none;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -460,17 +460,13 @@ header nav {
 }
 
 .testimonial-arrow.prev {
-  background: #dad1cc;
-  border-right: 1px solid #dad1cc;
+   border-right: 1px solid #dad1cc;
 }
 
-.testimonial-arrow.next {
-  background: #b2856e;
-}
 
 .testimonial-arrow img {
-  width: 18px;
-  height: 18px;
+  width: 30px;
+  height: 30px;
 }
 
 /* ===================== RECENT BLOGS ===================== */
