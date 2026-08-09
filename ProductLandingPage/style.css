@@ -208,6 +208,13 @@ header nav {
 }
 
 /* ===================== SERVICES ===================== */
+
+.feature{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
 .features-bar {
   background: #f9f5f3;
   padding: 3rem 2rem;
@@ -215,8 +222,8 @@ header nav {
 
 .features-bar ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2.5rem;
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
@@ -225,19 +232,17 @@ header nav {
 .feature img {
   width: 32px;
   height: 32px;
-  margin: 0 auto 0.8rem;
 }
 
 .feature h3 {
   font-family: "Nanum Myeongjo", serif;
   font-weight: 400;
-  font-size: 2.25rem;
-  line-height: 1.02;
+  font-size: 1.75rem;
+  line-height: 1.1;
   text-align: center;
   text-transform: capitalize;
   color: #b2856e;
-  margin-bottom: 0.5rem;
-}
+  }
 
 .feature p {
   font-family: "Open Sans", Arial, sans-serif;
