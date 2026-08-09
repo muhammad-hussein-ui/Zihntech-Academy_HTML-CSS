@@ -57,8 +57,9 @@ ul {
 }
 
 .btn-outline {
-  background: #dad1cc;
+  background: #f9f5f3;
   color: #6b6765;
+  border: 1px solid #dad1cc;
   border-radius: 100px;
   padding: 0.9rem 2.2rem;
   font-family: "Open Sans", Arial, sans-serif;
@@ -66,7 +67,6 @@ ul {
   font-size: 17px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  border: none;
   cursor: pointer;
   transition: opacity 0.2s ease;
 }
@@ -281,7 +281,7 @@ header nav {
   font-weight: 400;
   font-size: 4.75rem;
   line-height: 1.09;
-  text-align: center;
+  text-align: left;
   text-transform: capitalize;
   color: #b2856e;
   margin-bottom: 1rem;
