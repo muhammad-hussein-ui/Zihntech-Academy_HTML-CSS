@@ -83,10 +83,10 @@ header {
 }
 
 header nav {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  justify-content: space-between;
-  max-width: 1200px;
+   max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -94,6 +94,7 @@ header nav {
   position: relative;
   display: inline-flex;
   align-items: center;
+  justify-self: center;
 }
 
 .logo-watermark {
@@ -138,6 +139,7 @@ header nav {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  justify-self: end;
 }
 
 .nav-icons button {
